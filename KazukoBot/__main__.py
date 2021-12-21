@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there, I'm Kazuko,
+Hey there, I'm nazuko,
 
 I am an Anime themed group management bot
 to help maintaining groups with my super advanced features.
@@ -97,7 +97,7 @@ buttons = [
       ],
     [
         InlineKeyboardButton(
-            text="️Add Kazuko to your group", url="t.me/KazukoRobot?startgroup=true",
+            text="️Add nazuko to your group", url="t.me/Nezukokamado_X_bot?startgroup=true",
         ),
     ],
     [ 
@@ -107,7 +107,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey there! My name is Kazuko.
+Hey there! My name is nazuko.
 Have a look at the following for an idea of some of
 the things I can help you with.
 Main commands available:
@@ -119,7 +119,7 @@ Main commands available:
  Click on the buttons below to get documentation about specific modules!
 """
 
-KAZUKO_IMG = "https://telegra.ph/file/6d0f29836fda1effbb4ba.jpg"
+NAZUKO_IMG = "https://telegra.ph/file/162e830e64b4dab068f15.jpg"
 
 DONATE_STRING =  """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/heyaaman) or by contacting @heyaaman \
@@ -366,7 +366,7 @@ def kazuko_about_callback(update, context):
     query = update.callback_query
     if query.data == "kazuko_":
         query.message.edit_text(
-            text="""I'm *Kazuko*, a powerful group management bot built to help you manage your group easily.
+            text="""I'm *Nazuko*, a powerful group management bot built to help you manage your group easily.
 
 • I can restrict users.
 • I can greet users with customizable welcome messages and even set a group's rules.
@@ -385,20 +385,20 @@ or choosing help button at home menu and report error/bugs at Kazuko's support c
                 [
                     [
                         InlineKeyboardButton(
-                            text=" Setup Guide ", url="https://t.me/KazukoUpdates/22",
+                            text=" my friend❤️ ", url="https://t.me/Infernipe_bot",
                         ),
                         InlineKeyboardButton(text="T & C", url="https://telegra.ph/Terms-and-Conditions-10-26",
                         ),
                         InlineKeyboardButton(
-                            text="Source code", url="https://github.com/heyaaman/KazukoBot",
+                            text="my master😳", url="https://t.me/ownerofinfernip",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support", url="https://t.me/KazukoSupportChat",
+                            text="Support💖", url="https://t.me/sctbotsSupport",
                         ),
                         InlineKeyboardButton(
-                             text="Updates", url="https://t.me/KazukoUpdates",
+                             text="Updates💗", url="https://t.me/sctbots",
                         ),
                     ],
                     [
@@ -427,8 +427,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *kazuko*
-                 \nHere is the [Source Code](https://github.com/heyaaman/KazukoBot) .""",
+            text=""" Hi..🤗 I'm *nazuko*
+                 \nHere is the [Source Code](pravite) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
