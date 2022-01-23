@@ -66,7 +66,7 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/e354ce72d5cc6a1d27c4d.jpg",
                          "https://telegra.ph/file/1c6a5cd6d82f92c646c0f.jpg", 
                          "https://telegra.ph/file/2c1056c91c8f37fea838a.jpg",
                          "https://telegra.ph/file/f140c121d03dfcaf4e951.jpg", 
-                         "https://telegra.ph/file/39f7b5d1d7a3487f6ba69.jpg"'
+                         "https://telegra.ph/file/9892da2b7de5b9882342a.jpg"'
                          "https://telegra.ph/file/37376652a01f4617fd10d.jpg"'
                          "https://telegra.ph/file/e5452651ac1a36661859a.jpg"'
                          "https://telegra.ph/file/629bd40224941c37a8485.jpg"'
